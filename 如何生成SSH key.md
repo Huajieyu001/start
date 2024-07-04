@@ -8,9 +8,9 @@
 ~/.ssh
 ```
 
-如果有，则显示【Is a directory】
+如果有，则显示【Is a directory】，
 
-如果没有，则显示【No such file or directory】
+如果没有，则显示【No such file or directory】。
 
 
 
@@ -28,19 +28,13 @@ xxx@qq.com是自己的邮箱，创建的时候会有提示，连续3次回车即
 
 点击【New SSH key】
 
-![image-20240704214423448](C:\Users\xanadu\AppData\Roaming\Typora\typora-user-images\image-20240704214423448.png)
-
 
 
 4.在git bash输入【~/.ssh ls】可以查看key的路径，Github上的title随意填，Key填刚才生成的key文件，
 
-![image-20240704214714072](C:\Users\xanadu\AppData\Roaming\Typora\typora-user-images\image-20240704214714072.png)
-
-
-
-![image-20240704214543226](C:\Users\xanadu\AppData\Roaming\Typora\typora-user-images\image-20240704214543226.png)
-
 添加成功后会有邮件通知。
+
+
 
 5.测试一下SSH key
 
@@ -58,4 +52,4 @@ ssh -T git@github.com
 git push origin branchName
 ```
 
-把本地git仓库推送到远程
+把本地git仓库推送到远程仓库。
